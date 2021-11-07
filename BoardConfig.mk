@@ -5,6 +5,8 @@
 #
 
 TARGET_KERNEL_VERSION := 4.9
+TARGET_KERNEL_CONFIG := ysl_defconfig
+
 
 # Inherit from common msm8953-common
 include device/xiaomi/msm8953-common/BoardConfigCommon.mk
